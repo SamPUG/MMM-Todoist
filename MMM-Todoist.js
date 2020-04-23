@@ -52,11 +52,16 @@ Module.register("MMM-Todoist", {
 		displaySubtasks: true, // set to false to exclude subtasks
 		displayAvatar: false,
 		showProject: true,
+		/*
 		projectColors: ["#95ef63", "#ff8581", "#ffc471", "#f9ec75", "#a8c8e4", "#d2b8a3", "#e2a8e4", "#cccccc", "#fb886e",
 			"#ffcc00", "#74e8d3", "#3bd5fb", "#dc4fad", "#ac193d", "#d24726", "#82ba00", "#03b3b2", "#008299",
 			"#5db2ff", "#0072c6", "#000000", "#777777"
 		], //These colors come from Todoist and their order matters if you want the colors to match your Todoist project colors.
-
+		*/
+		projectColors: ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""
+						, "", "", "", "#b8256f", "#db4035", "#ff9933", "#fad000", "#afb83b", "#7ecc49", "#299438", "#6accbc", 
+						"#158fad", "#14aaf5", "#96c3eb", "#4073ff", "#884dff", "#af38eb", "#eb96eb", "#e05194", "#ff8d85", 
+						"#808080", "#b8b8b8", "#ccac93"],
 		//This has been designed to use the Todoist Sync API.
 		apiVersion: "v8",
 		apiBase: "https://todoist.com/API",
